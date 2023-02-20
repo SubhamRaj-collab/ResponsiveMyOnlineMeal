@@ -1,0 +1,127 @@
+/* Navigation section */
+
+#navbar
+{
+    flex-direction: column;
+}
+
+#navbar ul
+{
+    align-items: space-evenly;
+    margin: 15px 4px;
+}
+
+#navbar ul li a
+{
+    font-size: 0.855rem;
+    padding: 2px 5px;
+    margin: 0px 3px;
+}
+
+/* Home section */
+
+#home
+{
+    overflow: hidden;
+    padding: 3pc 24px;
+    height: 680px;
+}
+
+/* Services Section */
+
+#services
+{
+    flex-direction: column;
+}
+
+.box
+{
+    border: 2px solid orangered;
+    margin: 6px 3px;
+    border-radius: 23px;
+    background-color: rgb(248, 239, 239);
+}
+
+.box img
+{
+    height: 162px;
+    width: 186px;
+}
+
+.box p
+{
+    padding: 5px 20px;
+    padding-bottom: 40px;
+}
+
+/* Client section */
+
+#clientSection
+{
+    display: flex;
+    flex-direction: column;
+    height: 640px;
+}
+
+#clients
+{
+    flex-wrap: wrap;
+    height: 520px;
+}
+
+.clientItem
+{
+    padding: 2px;
+}
+
+#cItem1 img
+{
+    height: 100px;
+    width: 100px;
+}
+
+#cItem2 img
+{
+    height: 125px;
+    width: 175px;
+    padding-top: 30px;
+}
+
+#cItem3 img
+{
+    height: 125px;
+    width: 90px;
+    padding-top: 30px;
+}
+
+/* Contact section */
+
+.contactBox
+{
+    padding: 60px 0px;
+}
+
+.contactBox form
+{
+    width: 60%;
+}
+
+/* Footer section */
+
+/* Utility section */
+
+.h-primary
+{
+    font-size: 1.6rem;
+}
+
+.h-secondary
+{
+    font-size: 1.28rem;
+    padding: 8px;
+}
+
+.h-tertiary
+{
+    font-size: 0.6rem;
+}
